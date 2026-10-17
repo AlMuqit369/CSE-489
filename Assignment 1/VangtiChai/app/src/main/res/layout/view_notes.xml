@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notesTable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/note_500"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_500" />
+        <TextView
+            android:id="@+id/note_100"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_100" />
+        <TextView
+            android:id="@+id/note_50"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_50" />
+        <TextView
+            android:id="@+id/note_20"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_20" />
+        <TextView
+            android:id="@+id/note_10"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_10" />
+        <TextView
+            android:id="@+id/note_5"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_5" />
+        <TextView
+            android:id="@+id/note_2"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_2" />
+        <TextView
+            android:id="@+id/note_1"
+            style="@style/NoteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/note_zero_1" />
+</LinearLayout>

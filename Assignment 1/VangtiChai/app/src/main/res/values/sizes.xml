@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="icon_size">5dp</dimen>
+    <dimen name="screen_padding">2dp</dimen>
+    <dimen name="header_text_size">28sp</dimen>
+    <dimen name="amount_text_size">36sp</dimen>
+    <dimen name="amount_margin_start">12dp</dimen>
+    <dimen name="note_text_size">26sp</dimen>
+    <dimen name="note_padding">6dp</dimen>
+    <dimen name="note_row_gap">4dp</dimen>
+    <dimen name="key_text_size">22sp</dimen>
+    <dimen name="key_margin">2dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="keypad_margin_top">12dp</dimen>
+    <dimen name="key_height">56dp</dimen>
+</resources>

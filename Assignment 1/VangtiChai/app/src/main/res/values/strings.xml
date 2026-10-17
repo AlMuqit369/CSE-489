@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VangtiChai</string>
+    <string name="taka_label">Taka:</string>
+    <string name="clear">Clear</string>
+    <string name="zero">0</string>
+    <string name="d1">1</string>
+    <string name="d2">2</string>
+    <string name="d3">3</string>
+    <string name="d4">4</string>
+    <string name="d5">5</string>
+    <string name="d6">6</string>
+    <string name="d7">7</string>
+    <string name="d8">8</string>
+    <string name="d9">9</string>
+    <string name="note_format">%1$d: %2$d</string>
+    <string name="note_zero_500">500: 0</string>
+    <string name="note_zero_100">100: 0</string>
+    <string name="note_zero_50">50: 0</string>
+    <string name="note_zero_20">20: 0</string>
+    <string name="note_zero_10">10: 0</string>
+    <string name="note_zero_5">5: 0</string>
+    <string name="note_zero_2">2: 0</string>
+    <string name="note_zero_1">1: 0</string>
+    <string name="taka_format">Taka: %1$s</string>
+</resources>
