@@ -9,4 +9,4 @@ Shared pieces: view_notes.xml (change table), view_keypad.xml (keypad of Buttons
 State (entered amount) is saved in onSaveInstanceState; the change list is recomputed on restore.
 Amount is capped at 9 digits.
 
-Devices tested: (fill in after running) Pixel XL, Nexus 10, ...
+Devices tested: Pixel 10 emulator (portrait). Landscape and Nexus 10 not yet tested.
