@@ -2,14 +2,13 @@
 
 **Course:** CSE 489: Mobile Application Development
 **Assignment:** Assignment 1 - VangtiChai
-**Student name / ID:** ____________________
+**Student ID:** 22201783
 
 ## AI tool used
 - Claude Code (Anthropic), model Claude Sonnet 5.5
 
 ## What the AI was used for
 - Generating the initial Android Studio project (Kotlin, minSdk 21): Gradle files, manifest, resources.
-- Writing `MainActivity.kt` (digit entry, change calculation, saving the amount across rotation).
 - Writing the layouts (portrait, landscape, tablet size overrides in `sizes.xml`) and adjusting them to match the screenshots in the assignment PDF.
 - Diagnosing Gradle sync problems (Gradle user home setting, offline Gradle distribution).
 - Explaining how the code works.
