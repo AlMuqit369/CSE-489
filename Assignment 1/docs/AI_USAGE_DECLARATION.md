@@ -2,6 +2,7 @@
 
 **Course:** CSE 489: Mobile Application Development
 **Assignment:** Assignment 1 - VangtiChai
+**Student name:** Abdullah Al Muqit  
 **Student ID:** 22201783
 
 ## AI tool used
