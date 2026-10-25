@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="screen_padding">32dp</dimen>
+    <dimen name="gap">20dp</dimen>
+    <dimen name="title_text_size">28sp</dimen>
+    <dimen name="body_text_size">22sp</dimen>
+    <dimen name="big_text_size">48sp</dimen>
+</resources>

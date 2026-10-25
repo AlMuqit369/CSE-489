@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">BroadcastMedia</string>
+    <string name="menu_broadcast">Broadcast Receiver</string>
+    <string name="menu_image">Image scale</string>
+    <string name="menu_video">Video</string>
+    <string name="menu_audio">Audio</string>
+
+    <string name="select_type">Select broadcast type</string>
+    <string name="next">Next</string>
+    <string name="type_custom">Custom broadcast receiver</string>
+    <string name="type_battery">System battery notification receiver</string>
+    <string-array name="broadcast_types">
+        <item>@string/type_custom</item>
+        <item>@string/type_battery</item>
+    </string-array>
+
+    <string name="enter_text">Enter a message to broadcast</string>
+    <string name="hint_message">Message</string>
+    <string name="error_empty">Please enter some text</string>
+
+    <string name="custom_receiver_title">Custom broadcast receiver</string>
+    <string name="waiting_for_broadcast">Waiting for broadcast...</string>
+    <string name="received_format">Received: %1$s</string>
+
+    <string name="battery_title">Battery status</string>
+    <string name="battery_level_format">%1$d%%</string>
+    <string name="battery_status_format">Status: %1$s</string>
+    <string name="battery_power_format">Power source: %1$s</string>
+    <string name="status_charging">Charging</string>
+    <string name="status_discharging">Discharging</string>
+    <string name="status_full">Full</string>
+    <string name="status_not_charging">Not charging</string>
+    <string name="status_unknown">Unknown</string>
+    <string name="power_ac">AC</string>
+    <string name="power_usb">USB</string>
+    <string name="power_wireless">Wireless</string>
+    <string name="power_battery">Battery</string>
+
+    <string name="image_hint">Pinch to zoom the image</string>
+    <string name="image_failed">Could not load the image. Check your internet connection.</string>
+    <string name="image_description">Image loaded from the internet</string>
+
+    <string name="media_failed">Could not play the media. Check your internet connection.</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="audio_ready">Ready</string>
+    <string name="audio_preparing">Preparing...</string>
+    <string name="audio_playing">Playing</string>
+    <string name="audio_paused">Paused</string>
+    <string name="audio_stopped">Stopped</string>
+</resources>

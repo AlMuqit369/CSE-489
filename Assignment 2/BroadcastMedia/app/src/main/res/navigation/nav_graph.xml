@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/broadcastSelectFragment">
+
+    <fragment
+        android:id="@+id/broadcastSelectFragment"
+        android:name="com.example.broadcastmedia.BroadcastSelectFragment"
+        android:label="@string/menu_broadcast">
+        <action
+            android:id="@+id/action_select_to_input"
+            app:destination="@id/customInputFragment" />
+        <action
+            android:id="@+id/action_select_to_battery"
+            app:destination="@id/batteryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/customInputFragment"
+        android:name="com.example.broadcastmedia.CustomInputFragment"
+        android:label="@string/type_custom">
+        <action
+            android:id="@+id/action_input_to_receiver"
+            app:destination="@id/customReceiverFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/customReceiverFragment"
+        android:name="com.example.broadcastmedia.CustomReceiverFragment"
+        android:label="@string/custom_receiver_title">
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/batteryFragment"
+        android:name="com.example.broadcastmedia.BatteryFragment"
+        android:label="@string/battery_title" />
+
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.broadcastmedia.ImageFragment"
+        android:label="@string/menu_image" />
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.broadcastmedia.VideoFragment"
+        android:label="@string/menu_video" />
+
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="com.example.broadcastmedia.AudioFragment"
+        android:label="@string/menu_audio" />
+</navigation>
