@@ -1,0 +1,71 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Abdullah Al Muqit
+Student ID: 22201783
+Assignment: CSE 489 Assignment 1 - VangtiChai (Kotlin, Android Studio)
+Date: 2026-10-26
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[x] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[x] Generating code snippets
+[x] Writing text content
+[x] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+
+I used Claude Code (Claude Sonnet 5.5) to generate the Android Studio project
+from the assignment PDF: the Kotlin code, the portrait/landscape layouts and
+the phone/tablet size resources. I gave it the assignment screenshots and it
+adjusted the layouts to match them. It also helped me fix Gradle sync problems
+(Gradle user home setting), built and ran the app on an emulator, and explained
+how the code works to me. It wrote README.txt and the Git commits/push.
+I ran the app in Android Studio and checked it against the assignment.
+Tested: Pixel 10 emulator, portrait. Not tested: landscape, Nexus 10 tablet.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: MainActivity.kt Section: whole file (digit entry, change calculation, state save)
+File: res/layout/activity_main.xml, view_keypad.xml, view_notes.xml Section: whole files
+File: res/layout-land/*.xml Section: whole files
+File: res/values/sizes.xml, values-sw600dp/sizes.xml, strings.xml, themes.xml Section: whole files
+File: README.txt, build.gradle.kts Section: whole files
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: _______________________
+Date: ___________________________
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================

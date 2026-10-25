@@ -1,0 +1,71 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Abdullah Al Muqit
+Student ID: 22201783
+Assignment: CSE 489 Assignment 2 - BroadcastMedia (Kotlin, Android Studio)
+Date: 2026-10-26
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[ ] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[x] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[x] Learning/understanding concepts
+[x] Debugging my code
+[x] Generating code snippets
+[x] Writing text content
+[x] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+
+I used Claude Code (Claude Sonnet 5.5) to generate the Android Studio project
+from the assignment PDF: the navigation drawer (Jetpack Navigation component),
+the fragments for the broadcast receiver flow (spinner, custom text receiver,
+battery receiver), image pinch-zoom, video and audio playback, plus layouts and
+resources. It built, installed and ran the app on an emulator to check it, and
+it wrote README.txt. I provided the assignment and reviewed the result.
+Tested: Pixel 10 emulator, portrait (custom broadcast, battery, image load,
+video load, audio play). Not tested: pinch gesture, landscape, tablet.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: MainActivity.kt Section: whole file (drawer + navigation setup)
+File: BroadcastSelectFragment.kt, CustomInputFragment.kt, CustomReceiverFragment.kt, BatteryFragment.kt Section: whole files
+File: ImageFragment.kt, VideoFragment.kt, AudioFragment.kt Section: whole files
+File: res/navigation/nav_graph.xml, res/menu/drawer_menu.xml, res/layout/*.xml Section: whole files
+File: README.txt, app/build.gradle.kts Section: whole files
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: _______________________
+Date: ___________________________
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================
