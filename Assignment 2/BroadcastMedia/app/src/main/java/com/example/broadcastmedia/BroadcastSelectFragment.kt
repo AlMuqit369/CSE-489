@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.broadcastmedia.databinding.FragmentBroadcastSelectBinding
@@ -22,6 +23,13 @@ class BroadcastSelectFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val adapter = ArrayAdapter(
+            requireContext(),
+            R.layout.item_spinner,
+            resources.getStringArray(R.array.broadcast_types)
+        )
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        binding.spinnerType.adapter = adapter
         binding.btnNext.setOnClickListener {
             val nav = findNavController()
             if (binding.spinnerType.selectedItemPosition == POSITION_CUSTOM) {

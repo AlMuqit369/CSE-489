@@ -1,14 +1,16 @@
 <resources>
     <string name="app_name">BroadcastMedia</string>
+    <string name="app_title">App</string>
+    <string name="proceed">Proceed</string>
     <string name="menu_broadcast">Broadcast Receiver</string>
     <string name="menu_image">Image scale</string>
     <string name="menu_video">Video</string>
     <string name="menu_audio">Audio</string>
 
-    <string name="select_type">Select broadcast type</string>
+    <string name="select_type">Select a broadcast type</string>
     <string name="next">Next</string>
-    <string name="type_custom">Custom broadcast receiver</string>
-    <string name="type_battery">System battery notification receiver</string>
+    <string name="type_custom">Custom</string>
+    <string name="type_battery">Battery</string>
     <string-array name="broadcast_types">
         <item>@string/type_custom</item>
         <item>@string/type_battery</item>

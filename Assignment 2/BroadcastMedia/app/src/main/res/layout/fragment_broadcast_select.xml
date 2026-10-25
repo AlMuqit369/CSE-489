@@ -4,29 +4,33 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="@dimen/screen_padding">
+    android:paddingTop="@dimen/gap">
 
     <TextView
         android:id="@+id/tvSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/gap"
         android:text="@string/select_type"
-        android:textColor="@color/text_primary"
-        android:textSize="@dimen/title_text_size" />
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/caption_text_size" />
 
     <Spinner
         android:id="@+id/spinnerType"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/gap"
-        android:entries="@array/broadcast_types" />
+        android:layout_marginTop="@dimen/gap" />
 
-    <Button
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/section_gap"
+        android:background="@color/divider" />
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnNext"
+        style="@style/PillButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/gap"
-        android:text="@string/next"
-        android:textSize="@dimen/body_text_size" />
+        android:text="@string/proceed" />
 </LinearLayout>
